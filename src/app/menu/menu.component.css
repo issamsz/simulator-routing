@@ -1,0 +1,21 @@
+.menu{
+  width: 80%;
+  background-color: rgb(238, 147, 147);
+  border-radius: 2rem;
+  box-shadow: 1px 1px 12px rgb(44, 44, 44);
+  display: flex;
+  justify-content:space-around;
+ margin-left: 10%;
+
+}
+
+.items:hover {
+background-color: cadetblue;
+box-shadow: 1px 1px 12px rgb(44, 44, 44);
+
+}
+
+.currentLink{
+  box-shadow: 1px 1px 12px rgb(44, 44, 44);
+
+}

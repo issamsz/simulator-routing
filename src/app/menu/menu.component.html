@@ -1,0 +1,18 @@
+<div class="menu">
+
+<button mat-button  [routerLink] ="['todo']" routerLinkActive="currentLink" class="items">Todo Tcheck</button>
+
+
+<button mat-button [routerLink] ="['cv']" routerLinkActive="currentLink" class="items">Mini Projet</button>
+
+
+<button mat-button [routerLink] ="['router']" routerLinkActive="currentLink" class="items">Routing Tcheck</button>
+
+
+
+<button mat-button [matMenuTriggerFor]="afterMenu" class="items">After</button>
+<mat-menu #afterMenu="matMenu" xPosition="after">
+  <button mat-menu-item>Item 1</button>
+  <button mat-menu-item>Item 2</button>
+</mat-menu>
+</div>
